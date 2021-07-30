@@ -9,7 +9,8 @@ At each step in time (tick), the following transitions occur:
 3. Any live cell with two or three live neighbors lives, unchanged, to the next generation.
 4. Any dead cell with exactly three live neighbors comes to life.
 
-Solution:
+**Solution:**
+
 In the java program first we take input for N,M which are rows and column using grid. Then we take values for those pixels.
 
 After taking the input we display the input by user and call nextgeneration() function which will display the next generation cell.

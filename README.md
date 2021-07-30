@@ -11,10 +11,15 @@ At each step in time (tick), the following transitions occur:
 
 Solution:
 In the java program first we take input for N,M which are rows and column using grid. Then we take values for those pixels.
+
 After taking the input we display the input by user and call nextgeneration() function which will display the next generation cell.
+
 Inside next generation function we create future grid.
+
 In next generation function we run loops for all the pixels and check using the loop from -1 to 1 (Neighbours) how many alive cells are presenet.
+
 Once we have number of alive cells we can check if that cell will live or not.
+
 To check this we use three if condition based on three condition given
 
 Output is displayed as the future generation.
